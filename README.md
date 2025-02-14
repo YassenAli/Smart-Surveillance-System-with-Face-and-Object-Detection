@@ -9,7 +9,6 @@ Smart Surveillance System is a real-time video processing application built with
 - [Model Files](#model-files)
 - [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
-- [License](#license)
 - [Acknowledgements](#acknowledgements)
 
 ## Features
