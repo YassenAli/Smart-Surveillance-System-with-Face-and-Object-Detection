@@ -1,0 +1,8 @@
+
+.idea
+*.iml
+out
+gen
+coverage
+__pycache__
+models/
