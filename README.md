@@ -51,15 +51,22 @@ pip install opencv-python opencv-contrib-python numpy matplotlib
 
 ## Model Files
 
-The `models` folder contains the following files:
+This project uses pre-trained models for face detection and pose estimation. **These model files are not stored in the repository** due to their size. Instead, they are available as a release asset.
+
+**Download the models:**
+1. Go to the [Releases](https://github.com/yourusername/Smart-Surveillance-System-with-Face-and-Object-Detection/releases) page.
+2. Download the `models.zip` file from the latest release.
+3. Extract the contents of `models.zip` into a folder named `models` in the project root.
+
+The `models` folder should contain the following files:
 - **Face Detection Model:**
   - `deploy.prototxt`
   - `res10_300x300_ssd_iter_140000_fp16.caffemodel`
 - **Pose Estimation Model:**
   - `pose_deploy_linevec_faster_4_stages.prototxt`
   - `pose_iter_160000.caffemodel`
-- **Additional Model:**
-  - `ssd_mobilenet_v2_coco_2018_03_29.pbtxt` (optional, if used for further object detection)
+- **Additional Model (if used):**
+  - `ssd_mobilenet_v2_coco_2018_03_29.pbtxt`
 
 ## Setup and Installation
 
